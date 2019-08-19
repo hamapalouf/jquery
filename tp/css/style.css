@@ -1,0 +1,138 @@
+*{ 
+    margin: 0px;
+    padding:0px;
+}
+
+body{
+    background-image:Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    Linear-gradient(127deg, black, black 70.71%),
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+background-repeat: no-repeat;
+margin-bottom: 5%;
+ }
+
+
+
+.carousel {
+ 
+
+
+}
+nav{
+        position: fixed;
+    }
+
+
+      .imig{ 
+    padding: 20px;}
+
+
+hr{
+    color: white;
+    background: white;
+}
+iframe{
+    width:70%;
+    height: 400px;
+}
+
+
+
+p.titre{
+
+    font-size: 50px;
+    color: white;
+}
+
+.img {
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+.back{
+background-image: url("../res/10.png");
+width: 100%;
+height: 600px;;
+
+}
+
+
+.back h1{
+font-size: 100px;
+color:white;
+display: flex;
+justify-content: center;
+padding-top: 16%;
+
+}
+
+h1{ padding-top: 18px;
+    color: white;
+}
+
+.inp{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.inp button,.form-group{
+    margin: 8px;
+}
+
+
+
+label {
+color: white;
+font-size: 20px;
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+    margin-bottom: 300px;
+    padding-bottom: 30%
+  }
+
+
+  #comment{
+     height:100px; ;
+  }
+
+
+
+  .form-control {
+      font-size: 20px; 
+   
+  }
+
+  
+ul li a {
+    padding-left:10%;
+}
+
+.imig .btn  {
+    position: relative;
+    right: 16%;
+    height: 60px;
+    
+}
+
+
+
+  
+
+
+@media screen and (min-width: 200px) and (max-width: 1200px) {
+     .btn {
+ top: -140px;
+ left: 10px;
+     }
+ .imig .img {
+    display: flex;
+    
+}
+
+    }
+  
